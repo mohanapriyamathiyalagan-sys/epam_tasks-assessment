@@ -1,0 +1,12 @@
+<suite name="Smoke Suite">
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.epam.testng.medium.TestNGGroups"/>
+        </classes>
+    </test>
+</suite>
